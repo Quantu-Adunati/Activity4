@@ -11,4 +11,8 @@ export class DataService {
   {
     return this.http.get('https://reqres.in/api/users');
   }
+  firstClick()
+  {
+    return console.log('clicked');
+  }
 }

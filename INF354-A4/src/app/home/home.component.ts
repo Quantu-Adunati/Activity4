@@ -18,5 +18,17 @@ export class HomeComponent implements OnInit {
     });
   }
 
-    
+    firstClick()
+    {
+      if(this.h1Style == true)
+      {
+        this.h1Style = false;
+      }
+      else 
+      {
+        this.h1Style = true;
+      }
+      
+      this.data.firstClick();
+    }
 }
